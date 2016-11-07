@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=0.1
+Type=Application
+Terminal=true
+Exec=python /home/bismarck/Downloads/Temp/PyParticle/PyParticles.py
+Name=PyParticles
