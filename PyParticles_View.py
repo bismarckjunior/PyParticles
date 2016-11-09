@@ -29,6 +29,8 @@ try:
             scene.PlayMode = mode
             scene.Loop = int(loop)
 
+            pv.Show(pv.AnnotateTimeFilter())
+
             self.objects_['scene'] = scene
 
         def create_plane(self, origin, P1, P2, color_RGB=[0., 0.45, 0.]):
